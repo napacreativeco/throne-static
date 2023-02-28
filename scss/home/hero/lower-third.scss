@@ -1,0 +1,109 @@
+.lower-third {
+
+
+    .lower-third--row {
+        display: grid;
+        grid-template-columns: 6fr 3fr 3fr;
+        align-items: stretch;
+        padding: 0;
+        border-top: var(--border-white);
+        min-height: 10vh;
+        height: 100%;
+    }
+    
+    /* Text */
+    .text-column {
+        border-right: var(--border-white);
+    }
+    
+    p {
+        font-size: 1.6em;
+        letter-spacing: -1px;
+        position: relative;
+        height: calc(100% - 20px);
+        padding: 0 10px;
+    }
+    
+    /* Work */
+    .work-column {
+        border-right: var(--border-white);
+        text-align: center;
+        justify-content: center;
+        font-family: var(--migra);
+        
+        svg {
+            max-width: 160px;
+            margin: 0 auto;
+            text {
+                font-size: 8rem;
+                font-family: var(--migra);
+            }
+        }
+    
+        a {
+            font-family: var(--migra);
+            font-size: 3em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            border: var(--border-white);
+            background: transparent;
+            color: var(--white);
+            border-radius: 50%;
+            line-height: 0;
+            width: 100%;
+            height: 100%;
+        }
+    
+    }
+    
+    .arrow-column {
+        display: flex;
+        justify-content: center;
+
+        a {
+            display: flex;
+            align-items: center;
+        }
+
+    }
+    
+    img {
+        width: 100%;
+        max-width: 100px;
+    }
+    
+    @media screen and (max-width: 767px) {
+        min-height: 40vh;
+    
+        .lower-third--row {
+            height: 100%;
+            grid-template-columns: auto;
+            align-items: stretch;
+            grid-template-areas:
+            "text text"
+            "work arrow";
+        }
+
+        .text-column {
+            grid-area: text;
+            border-right: 0px;
+            border-bottom: var(--border-white);
+            padding: 10px 0;
+        }
+
+        .work-column {
+            grid-area: work;
+            border-right: var(--border-white);
+        }
+        
+        .arrow-column {
+            grid-area: arrow;
+        }
+        
+    }
+
+
+}
+

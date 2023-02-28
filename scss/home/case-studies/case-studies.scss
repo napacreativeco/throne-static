@@ -1,0 +1,124 @@
+.case-studies-container {
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 9;
+    width: 100vw;
+    height: 100vh;
+
+    transform: scaleY(0.0);
+    border-radius: 100%;
+    transition: all 0.3s cubic-bezier(0.83, 0, 0.17, 1);
+
+    border-top-right-radius: 24px;
+    border-top-left-radius: 24px;
+
+    backdrop-filter: blur(6px);
+    border: 6px solid var(--white);
+    background: rgba(0, 0, 0, 0.4);
+
+    .logo {
+        img { max-height: 40px; }
+    }
+
+    .content {
+
+    }
+
+    .row {
+        padding: 40px 20px;
+        position: relative;
+    }
+
+    .list {
+        a {
+            font-size: 12vw;
+        }
+    }
+
+    .close-case-study {
+        position: absolute;
+        top: 20px;
+        left: 0;
+        right: 0;
+        text-align: center;
+
+        span {
+            border-bottom: 2px solid var(--white);
+        }
+    }
+
+    .case-study {
+        display: none;
+    }
+
+    .case-study-scrollbox {
+        overflow-y: scroll;
+        height: 100vh;
+        width: 100%;
+        max-width: 800px;
+        margin: 20px auto 0 auto;
+        padding: 100px 0 200px 0;
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */    
+
+        img {
+            display: flex;
+            justify-self: center;
+            width: 100%;
+            max-width: 800px;
+            margin: 40px auto 0 auto;
+        }
+
+        .title {
+            font-size: 11vw;
+            letter-spacing: -0.8vw;
+            margin: 0;
+        }
+
+        .title-block p {
+            font-size: 32px;
+            letter-spacing: -1px;
+        }
+
+        .casestudy--section--title {
+            font-size: 8vw;
+            letter-spacing: -0.5vw;
+        }
+
+        .section {
+            p {
+                font-size: 32px;
+                letter-spacing: -1px;
+            }
+        }
+
+    }
+
+    .case-study-scrollbox::-webkit-scrollbar {
+        display: none;
+    }
+
+    .cs--footer {
+        padding-top: 80px;
+        a {
+            font-size: 6vw;            
+        }
+    }
+
+
+    .case-study--image-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+        width: 100%;
+    }
+
+}
+
+.case-studies-container::before {
+    backdrop-filter: blur;
+}

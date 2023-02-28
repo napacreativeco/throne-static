@@ -1,0 +1,38 @@
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    width: 40px;
+    max-width: 40px;
+    cursor: pointer;
+
+    position: fixed;
+    top: 20px;
+    left: 20px;
+
+    .top {
+        background: var(--white);
+        height: 4px;
+        width: 30px;
+        margin-bottom: 4px;
+        align-self: flex-end;
+        transition: all 0.2s ease-out;
+    }
+
+    .bottom {
+        background: var(--white);
+        height: 4px;
+        width: 30px;
+        margin-bottom: 4px;
+        align-self: flex-start;
+        transition: all 0.2s ease-out;
+    }
+
+}
+
+.hamburger:hover .top {
+    align-self: flex-start;
+}
+
+.hamburger:hover .bottom {
+    align-self: flex-end;
+}

@@ -1,0 +1,35 @@
+.main-container {
+    display: grid;
+    grid-template-columns: 80px 11fr;
+    grid-gap: 0px;
+    align-items: stretch;
+    
+    @media (max-width: 767px) {
+        grid-template-columns: 1fr;
+    }
+
+    .sidebar {
+        border-right: var(--border-white);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+        @media (max-width: 767px) {
+            display: none;
+        }
+
+        .sidebar--row {
+            position: relative;
+            width: 100%;
+            min-height: 100%;
+        }
+
+    }
+
+    .content {
+        min-width: 100%;
+        max-width: 100%;
+        min-height: 100vh;
+    }
+}
+
