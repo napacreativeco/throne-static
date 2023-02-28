@@ -74,7 +74,7 @@
         }
 
         .title {
-            font-size: 11vw;
+            font-size: 8vw;
             letter-spacing: -0.8vw;
             margin: 0;
         }
@@ -121,4 +121,14 @@
 
 .case-studies-container::before {
     backdrop-filter: blur;
+}
+
+@media screen and (max-width: 767px) {
+    .case-study-scrollbox {
+        .title {
+            margin: 0 0 80px 0;
+            line-height: 0.8;
+        }
+    }
+
 }
