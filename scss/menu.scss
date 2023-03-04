@@ -68,11 +68,11 @@
         a::after {
             content: '';
             position: absolute;
-            bottom: 0px;
+            bottom: 12%;
             left: 0;
             right: 0;
             width: 100%;
-            height: 3px;
+            height: 10px;
             background: var(--black);
             display: block;
         }
@@ -84,6 +84,15 @@
         small {
             font-size: 2vw;
             font-family: var(--migra);
+        }
+
+        @media screen and (max-width: 767px) {
+
+            a::after {
+                bottom: 8%;
+                height: 6px;
+            }
+
         }
     }
 
