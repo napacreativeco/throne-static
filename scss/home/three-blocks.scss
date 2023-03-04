@@ -19,7 +19,7 @@
         max-width: 100%;
     
         .section-title {
-            font-size: 3em;
+            font-size: 36px;
             letter-spacing: -2px;
             line-height: 0.8;
             position: relative;
@@ -30,7 +30,7 @@
         }
     
         p {
-            font-size: 0.9rem;
+            font-size: 18px;
             letter-spacing: -0.5px;
             margin-top: 10px;
         }
@@ -75,3 +75,41 @@
     }
 }
 
+
+/*
+* Large
+*/
+@media screen and (min-width: 1200px) {
+
+    #our-services {
+
+        .section-title {
+            font-size: 2vw;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+    }
+
+}
+
+/*
+* Small
+*/
+@media screen and (max-width: 767px) {
+
+    #our-services {
+
+        .section-title {
+            font-size: 36px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+    }
+
+}

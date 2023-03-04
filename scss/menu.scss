@@ -58,18 +58,31 @@
         }
 
         a {
-            font-size: 12vw;
+            font-size: 10vw;
             line-height: 1;
             letter-spacing: -0.8vw;
             padding: 0;
+            position: relative;
         }
 
-        a:hover {
+        a::after {
+            content: '';
+            position: absolute;
+            bottom: 0px;
+            left: 0;
+            right: 0;
+            width: 100%;
+            height: 3px;
+            background: var(--black);
+            display: block;
+        }
+
+        a::after:hover {
             text-decoration: underline;
         }
 
         small {
-            font-size: 3vw;
+            font-size: 2vw;
             font-family: var(--migra);
         }
     }

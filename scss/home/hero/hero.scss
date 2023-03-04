@@ -64,6 +64,21 @@
         margin-right: 0px;
     }
 
+    /*
+    * Large
+    */
+    @media screen and (min-width: 1200px) {
+        .text p {
+            font-size: 6vw;
+        }
+        .text {
+            grid-gap: 3vw;
+        }
+    }
+
+    /*
+    * Small
+    */
     @media screen and (max-width: 767px) {
 
         
@@ -72,7 +87,7 @@
             justify-content: center;
             max-width: 100vw;
             gap: 0px 0;
-            height: calc(100vh - 10px);
+            height: calc(100vh - 62px);
             position: relative;
     
             .text {
@@ -92,7 +107,7 @@
                 line-height: 0.8;
                 text-align: center;
                 white-space: nowrap;
-                gap: 0px;
+                gap: 6px;
             }
             .text span.accent {
                 line-height: 1;

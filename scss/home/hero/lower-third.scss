@@ -35,14 +35,13 @@
             max-width: 160px;
             margin: 0 auto;
             text {
-                font-size: 8rem;
                 font-family: var(--migra);
             }
         }
     
         a {
             font-family: var(--migra);
-            font-size: 3em;
+            font-size: 64px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -84,6 +83,7 @@
             grid-template-areas:
             "text text"
             "work arrow";
+            grid-template-rows: 2fr 1fr;
         }
 
         .text-column {
@@ -96,10 +96,20 @@
         .work-column {
             grid-area: work;
             border-right: var(--border-white);
+
+            a {
+                font-family: var(--migra);
+                font-size: 34px;
+            }
         }
         
         .arrow-column {
             grid-area: arrow;
+
+            img {
+                width: 100%;
+                max-width: 60px;
+            }
         }
         
     }
