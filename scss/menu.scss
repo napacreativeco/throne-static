@@ -74,11 +74,11 @@
             width: 100%;
             height: 10px;
             background: var(--black);
-            display: block;
+            display: none;
         }
 
-        a::after:hover {
-            text-decoration: underline;
+        a:hover::after {
+            display: block;
         }
 
         small {
