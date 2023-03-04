@@ -76,7 +76,8 @@
         .title {
             font-size: 8vw;
             letter-spacing: -0.8vw;
-            margin: 0;
+            margin: 0 0 40px 0;
+            line-height: 0.8;
         }
 
         .title-block p {
@@ -87,6 +88,7 @@
         .casestudy--section--title {
             font-size: 8vw;
             letter-spacing: -0.5vw;
+            margin: 20px 0 10px 0;
         }
 
         .section {
@@ -105,7 +107,9 @@
     .cs--footer {
         padding-top: 80px;
         a {
-            font-size: 6vw;            
+            font-size: 5vw;
+            letter-spacing: -5px; 
+            line-height: 0.8;           
         }
     }
 
@@ -123,12 +127,36 @@
     backdrop-filter: blur;
 }
 
+
+/*
+* Small
+*/
 @media screen and (max-width: 767px) {
-    .case-study-scrollbox {
-        .title {
-            margin: 0 0 80px 0;
-            line-height: 0.8;
+
+    .case-studies-container {
+
+        .case-study-scrollbox {
+            .title {
+                margin: 0 0 80px 0;
+                line-height: 0.8;
+            }
+
+            .section {
+                p {
+                    font-size: 22px;
+                    letter-spacing: -1px;
+                }
+            }
+
+            .casestudy--section--title {
+                font-size: 44px;
+                letter-spacing: -0.5vw;
+            }
+
         }
+
     }
+
+
 
 }
