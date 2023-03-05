@@ -46,6 +46,8 @@
         right: 0;
         text-align: center;
 
+        animation: wobble 1s infinite;
+
         span {
             border-bottom: 2px solid var(--white);
         }
@@ -153,6 +155,17 @@
                 letter-spacing: -0.5vw;
             }
 
+        }
+
+        .cs--footer {
+            padding-top: 80px;
+            a {
+                font-size: 7vw;
+                letter-spacing: -2px; 
+                line-height: 0.8;    
+                display: block;
+                margin-top: 40px;       
+            }
         }
 
     }
