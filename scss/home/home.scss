@@ -1,3 +1,9 @@
+.marquee {
+    width: 300px; /* the plugin works for responsive layouts so width is not necessary */
+    overflow: hidden;
+    border:1px solid #ccc;
+  }
+
 @import './hero/hero.scss';
 @import './hero/lower-third.scss';
 @import './three-blocks.scss';

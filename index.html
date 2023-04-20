@@ -7,6 +7,55 @@
     <title>throne</title>
     <link rel="icon" href="/assets/favicon.ico" />
     <link rel="stylesheet" href="app.css" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <style>
+        #marquee {
+            display: flex;
+            flex-direction: row;
+            overflow: hidden;
+            position: relative;
+            user-select: none;
+            width: 100%;
+            gap: 1rem;
+            border-bottom: 2px solid var(--white);
+            padding: 12px 0 20px 0;
+        }
+
+        .marquee-content {
+            flex-shrink: 0;
+            display: flex;
+            justify-content: space-around;
+            min-width: 100%;
+            gap: 1rem;
+            font-size: 4vw;
+            letter-spacing: -0.16vw;
+        }
+
+        @keyframes scroll {
+            from {
+                transform: translateX(0);
+            }
+            to {
+                transform: translateX(calc(-100% - 1rem));
+            }
+        }
+
+        .scroll {
+            animation: scroll 15s linear infinite;
+        }
+
+        .reverse {
+            animation-direction: reverse;
+        }
+
+        .swiper-slide {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
 </head>
 <body>
     
@@ -185,6 +234,19 @@
 
             </div> <!-- end: HERO -->
 
+            <!-- 
+            *
+            * Marquee
+            *
+            -->
+            <div id="marquee">
+                <div class="marquee-content scroll">
+                    <div>Throne is an independent graphic design and web development studio based in Napa, California.</div> <div>Throne is an independent graphic design and web development studio based in Napa, California.</div>
+                </div>
+                <div class="marquee-content scroll">
+                    <div>Throne is an independent graphic design and web development studio based in Napa, California.</div> <div>Throne is an independent graphic design and web development studio based in Napa, California.</div>
+                </div>
+            </div>
 
             <!-- 
             *
@@ -238,12 +300,16 @@
                 <div class="title">Recent <span class="accent">Projects</span></div>
 
                 <div class="list">
+
                     <!--
                     = Usal
                     -->
-                    <div class="mouse-change list-item casestudy-link" data-client="usal-two">Usal Project 
-                        <sup class="accent">01</sup>
-                    </div>
+                    <div class="mouse-change list-item casestudy-link" data-client="usal-two">Usal Project <sup class="accent">01</sup></div>
+
+                    <!--
+                    = Bighouse
+                    -->
+                    <div class="mouse-change list-item casestudy-link" data-client="bighouse">Bighouse <sup class="accent">02</sup></div>
 
                     <!--
                     = All Is A Gentle Spring
@@ -260,10 +326,6 @@
                     -->
                     <div class="mouse-change list-item casestudy-link" data-client="nappy">Nappy Boy Ent. <sup class="accent">05</sup></div>
 
-                    <!--
-                    = Bighouse
-                    -->
-                    <div class="mouse-change list-item casestudy-link" data-client="bighouse">Bighouse <sup class="accent">06</sup></div>
                 </div>
 
             </div>
@@ -339,7 +401,24 @@
                         </p>
                     </div>
 
-                    <img src="/img/calendar-widget.jpg" alt="Usal Project - Calendar Widget" />
+                    <!-- Slider main container -->
+                    <div class="swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide"><img src="/img/calendar-widget.jpg" alt="Usal Project - Calendar Widget" /></div>
+                            <div class="swiper-slide"><img src="/img/escape-product.jpg" alt="Usal Project - Escape Product" /></div>
+                            <div class="swiper-slide"><img src="/img/calendar-page.jpg" alt="Usal Project - Calendar Page" /></div>
+                            <div class="swiper-slide"><img src="/img/goods.jpg" alt="" /></div>
+                            <div class="swiper-slide"><img src="/img/goods-product.jpg" alt="" /></div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-buttons">
+                        <div class="next">next</div>
+                        <div class="prev">prev</div>
+                    </div>
+                    
 
                     <!-- Brief -->
                     <div class="section brief">
@@ -353,7 +432,7 @@
                         </p>
                     </div>
 
-                    <img src="/img/escape-product.jpg" alt="Usal Project - Escape Product" />
+                    
 
                     <!-- Functionality -->
                     <div class="section functionality">
@@ -366,7 +445,7 @@
 
                     </div>
 
-                    <img src="/img/calendar-page.jpg" alt="Usal Project - Calendar Page" />
+                    
                     
                     <!-- Technology -->
                     <div class="section technology">
@@ -380,8 +459,8 @@
                         </p>
                     </div>
 
-                    <img src="/img/goods.jpg" alt="" />
-                    <img src="/img/goods-product.jpg" alt="" />
+                    
+                    <hr />
 
 
                     <!-- Previous Version -->
@@ -693,10 +772,12 @@
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/CustomEase.min.js" integrity="sha512-uz892ZkYODwTes5+bbFabdbjahCKx+/5Jv+R3Ov+EM+X3hyU4S9DRftydgG/CZsHD1IfV+0AurkeqJbo4vwyJA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/Draggable.min.js" integrity="sha512-cGS9y5MepPe9pI2nibL3W1n4ImVcgcvipKjl0IXmgMgXlrwIX0bc2lm4QgMRtEnyN+k/ct0a5iCaqo9cXYgNGA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js" integrity="sha512-A64Nik4Ql7/W/PJk2RNOmVyC/Chobn5TY08CiKEX50Sdw+33WTOpPJ/63bfWPl0hxiRv1trPs5prKO8CpA7VNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js" integrity="sha512-f8mwTB+Bs8a5c46DEm7HQLcJuHMBaH/UFlcgyetMqqkvTcYg4g5VXsYR71b3qC82lZytjNYvBj2pf0VekA9/FQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
     <script type="text/javascript" src="./js/throne.js"></script>
 
 </body>
