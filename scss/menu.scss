@@ -9,8 +9,8 @@
     width: 100vw;
     height: 100vh;
 
-    background: var(--white);
-    color: var(--black);
+    backdrop-filter: blur(3px);
+    color: var(--white);
 
     transform: scaleY(0.0);
     transition: all 0.3s cubic-bezier(0.83, 0, 0.17, 1);
@@ -41,6 +41,14 @@
 
     .menu {
 
+        .close-li {
+            margin-top: 50px;
+            cursor: pointer;
+        }
+        .close-li:hover {
+            text-decoration: underline;
+        }
+
         height: 100%;
         display: flex;
         flex-direction: column;
@@ -58,9 +66,9 @@
         }
 
         a {
-            font-size: 6vw;
-            line-height: 1;
-            letter-spacing: -0.8vw;
+            font-size: 72px;
+            line-height: 1.4;
+            letter-spacing: -2px;
             padding: 0;
             position: relative;
         }
@@ -72,8 +80,8 @@
             left: 0;
             right: 0;
             width: 100%;
-            height: 10px;
-            background: var(--black);
+            height: 2px;
+            background: var(--white);
             display: none;
         }
 

@@ -3,7 +3,7 @@
 
     .lower-third--row {
         display: grid;
-        grid-template-columns: 6fr 3fr 3fr;
+        grid-template-columns: 8fr 3fr 1fr;
         align-items: stretch;
         padding: 0;
         border-top: var(--border-white);
@@ -42,7 +42,7 @@
     
         a {
             font-family: var(--migra);
-            font-size: 64px;
+            font-size: 34px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -67,12 +67,13 @@
             align-items: center;
         }
 
+        img {
+            width: 100%;
+            max-width: 60px;
+        }
+
     }
-    
-    img {
-        width: 100%;
-        max-width: 100px;
-    }
+
     
     @media screen and (max-width: 767px) {
         min-height: 40vh;

@@ -1,0 +1,17 @@
+.marquee {
+    width: 300px; /* the plugin works for responsive layouts so width is not necessary */
+    overflow: hidden;
+    border:1px solid #ccc;
+}
+
+@media screen and (max-width: 767px) {
+    
+    .marquee {
+        padding: 20px 0;
+    }
+
+    .marquee-content {
+        font-size: 7vw;
+    }
+
+}

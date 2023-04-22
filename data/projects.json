@@ -1,0 +1,214 @@
+[
+    {
+        "client": "All Is A Gentle Spring",
+        "slug": "aiags",
+        "type": "Web Development",
+        "designer": "William Canning",
+        "description": "all is a gentle spring is an Australian label founded in 2018. The label warps, condenses and clarifies the vernacular of costume history; borrowing methods and materials from the theatre workshop and transposing them into the world of ready-to-wear.",
+        "links": [
+            {
+                "instagram": "https://www.instagram.com/allisagentlespring",
+                "website": "https://www.gentle-spring.co/"
+            }
+        ],
+        "images": [
+            "../img/aiags/aiags-archive-page.jpg",
+            "../img/aiags/aiags-product-page--cart-open.jpg"
+        ]
+    },
+    {
+        "client": "another side.",
+        "slug": "anotherside",
+        "type": "Web Development",
+        "designer": "Throne",
+        "description": "another side. is an independent music licensing and publicity company founded in 2022. They provide promotional services for artists of various popularity and genres.",
+        "links": [
+            {
+                "instagram": "https://www.instagram.com/another__side___",
+                "website": "https://www.another-side.net/"
+            }
+        ],
+        "images": [
+            "../img/anotherside/another-side--clients.jpg"
+        ]
+    },
+    {
+        "client": "Bighouse",
+        "slug": "bighouse",
+        "type": "Pitch Decks",
+        "designer": "William Canning, Throne",
+        "description": "\"we bring creatives and brands together in unique and unexpected ways. by utilizing the bighouse network across entertainment, licensing, fashion, and technology, we create eye-catching products, partnerships and experiences.\"",
+        "links": [
+            {
+                "instagram": "https://www.instagram.com/another__side___",
+                "website": "https://www.another-side.net/"
+            }
+        ],
+        "images": []
+    },
+    {
+        "client": "Dominic Fike",
+        "slug": "dominicfike",
+        "type": "Web Development",
+        "designer": "Reed Bennett",
+        "description": "Dominic Fike is a talented and world reknown singer, songwriter and actor. Their music has been featured in Fortnite, Euphoria and has been recognized with award nominations from The Grammys, and MTV.",
+        "links": [
+            {
+                "instagram": "https://www.instagram.com/another__side___",
+                "website": "https://www.another-side.net/"
+            }
+        ],
+        "images": [
+            "../img/dominic/dominic-fike--website-design.jpg"
+        ]
+    },
+    {
+        "client": "Fomo Farms",
+        "slug": "fomofarms",
+        "type": "Web Development",
+        "designer": "Throne",
+        "description": "An independently owned and operated Cannabis farm located in Northern California. Fomo focused on exclusively outdoor cultivation, and is known for their potent products.",
+        "links": [
+            {
+                "instagram": "https://www.instagram.com/fomofarms",
+                "website": "https://fomofarms.com/"
+            }
+        ],
+        "images": []
+    },
+    {
+        "client": "Industry Standards",
+        "slug": "industrystandards",
+        "type": "Graphic Design",
+        "designer": "",
+        "description": "An independent record label opeated out of California. Industry Standards releases a variety of underground genres like punk, noise and hardcore.",
+        "links": [
+            {
+                "instagram": "https://www.instagram.com/_industrystandards_/",
+                "website": "https://industrystandards.bigcartel.com/"
+            }
+        ],
+        "images": []
+    },
+    {
+        "client": "Lux18",
+        "slug": "lux18",
+        "type": "Pitch Decks",
+        "designer": "Throne",
+        "description": "Lux18 aims to expand the global presence of category leading artists and brands, through Licensing, Distribution and strategic collaboration. Lux18 has worked with names like Trippie Redd, J.Balvin, JuiceWRLD, Pabst Blue Ribbon, and more.",
+        "links": [
+            {
+                "instagram": "javascript:void",
+                "website": "https://lux18.co/"
+            }
+        ],
+        "images": []
+    },
+    {
+        "client": "Moonstonegold",
+        "slug": "moonstonegold",
+        "type": "Graphic Design, Packaging",
+        "designer": "",
+        "description": "Moonstonegold is the moniker for the hand crafted, hand mined, jewelry created by Jes Sloan. Jes creates unique wearable and home goods items with crystals and stones mined throughout the South West.",
+        "links": [
+            {
+                "instagram": "https://www.instagram.com/moonstonegold/",
+                "website": "https://www.moonstonegold.com/"
+            }
+        ],
+        "images": []
+    },
+    {
+        "client": "Nappy Boy Ent.",
+        "slug": "nappyboy",
+        "type": "Pitch Decks, Graphic Design",
+        "designer": "Throne",
+        "description": "Nappy Boy Entertainment is an media group founded by T-Pain. Nappy Boy operates a Record Label, Podcast, Gaming Team, and a Drifting Team.",
+        "links": [
+            {
+                "instagram": "https://www.instagram.com/nappyboyentertainment/",
+                "website": "https://www.nappyboyent.com/"
+            }
+        ],
+        "images": []
+    },
+    {
+        "client": "NV Massage &amp; Wellness",
+        "slug": "nvmaw",
+        "type": "Web Development, Graphic Design",
+        "designer": "Throne, April Rose",
+        "description": "Independently owned massage spa in Downtown Napa, California. In addition to massage and body work, NV also curates and sells their own spa products and accessories.",
+        "links": [
+            {
+                "instagram": "https://www.instagram.com/napavalleyspa/",
+                "website": "https://www.nvmassageandwellness.com/"
+            }
+        ],
+        "images": []
+    },
+    {
+        "client": "Rebel Grown",
+        "slug": "rebelgrown",
+        "type": "Sell Sheets, Tradeshow",
+        "designer": "",
+        "description": "Rebel Grown is a World reknown cannabis cultivator, specializing in genetics and sustainable farming. They have won many awards from institutions like Cannabis Cup, High Times and more.",
+        "links": [
+            {
+                "instagram": "https://www.instagram.com/rebelgrown/",
+                "website": "https://www.rebelgrown.com/"
+            }
+        ],
+        "images": []
+    },
+    {
+        "client": "Steep. Coffee, Tea, &amp; Crystals",
+        "slug": "steep",
+        "type": "Graphic Design",
+        "designer": "",
+        "description": "STEEP is a small shop located in Hopland, California, right off the Interstate. In addition to their in-house cold brew, and packaged coffee, STEEP sells a vast array of crystals, mined themeselves from the Sonoran Desert.",
+        "links": [
+            {
+                "instagram": "https://www.instagram.com/steephopland/",
+                "website": "https://www.coffeeteacrystals.com/"
+            }
+        ],
+        "images": []
+    },
+    {
+        "client": "Usal Project",
+        "slug": "usal",
+        "type": "Web Development",
+        "designer": "Chase Shewbridge",
+        "description": "Usal Project is an experiences company based in Los Angeles, California. They began with the goal of organizing events for like minded people to meet, learn and experience new things. They offer in-person meet ups for all types of activities like Art shows, Yoga Classes, Backpacking, Fishing and way more.",
+        "links": [
+            {
+            "instagram": "https://www.instagram.com/usalproject/",
+            "website": "https://www.usalproject.com/"
+            }
+        ],
+        "images": [
+            "../img/usal/escape-product.jpg",
+            "../img/usal/calendar-widget.jpg",
+            "../img/usal/field-log.jpg",
+            "../img/usal/goods.jpg",
+            "../img/usal/goods-product.jpg",
+            "../img/usal/learn-archive.jpg",
+            "../img/usal/scattered-image--old.jpg",
+            "../img/usal/youarehere--old.jpg"
+        ]
+    },
+    {
+        "client": "WALD",
+        "slug": "wald",
+        "type": "Web Development",
+        "designer": "William Canning",
+        "description": "WALD hand makes unique and stylish clothing, made to order in Los Angeles, California.",
+        "links": [
+            {
+                "instagram": "https://www.instagram.com/w.a.l.d_us/",
+                "website": "https://www.wald-us.com/"
+            }
+        ],
+        "images": []
+    }
+]
