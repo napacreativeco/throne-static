@@ -39,6 +39,7 @@
 
                                 <div class="client-body--left mouse-star">
                                     <div class="type"># ${item.type}</div>
+                                    <div class="designer">Designed by ${item.designer}</div>
                                     <div class="description">
                                         <p>${item.description}</p>
                                     </div>
