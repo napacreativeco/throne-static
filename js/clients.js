@@ -79,6 +79,7 @@
         Details Animation
     ==============================================
     */
+   $(document).ready(function() {
     const details = document.querySelectorAll("details");
 
     // Add the onclick listeners.
@@ -92,6 +93,8 @@
             });
         });
     });
+   })
+
 
 
     $(document).ready(function() {
