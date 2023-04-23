@@ -15,8 +15,13 @@
 
     details {
         transition: all 0.34s ease-out;
+        cursor: pointer;
     }
 
+    details summary > * {
+        display: inline;
+    }
+    
     summary {
         padding: 20px;
         position: relative;
