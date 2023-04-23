@@ -49,6 +49,13 @@
             opacity: 0;
             width: 30px;
         }
+
+        span.sup {
+            font-size: 12px;
+            margin-left: 0px;
+            vertical-align: top;
+            position: relative;
+        }
     }
 
     summary:hover img {
@@ -63,6 +70,20 @@
         transform: rotate(90deg);
         top: 40%;
         opacity: 1;
+    }
+
+    details[open] {
+        h2 {
+            span.client-name {
+                text-decoration: underline;
+            }
+            
+            sup,
+            span.sup {
+                text-decoration: none !important;
+            }
+        }
+
     }
     
     @keyframes sweep {

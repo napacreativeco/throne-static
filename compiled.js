@@ -17,7 +17,23 @@
                 $('#client-list').append(`
                     <li class="client mouse-change" id="${item.slug}" data-key="${key}">
                         <details>
-                            <summary><h2>${item.client}</h2><img class="empty-arrow" src="../svg/arrow-empty.svg" /></summary>
+                            <summary>
+                            
+                                <h2>
+                                    <span class="client-name">
+                                        ${item.client}
+                                    </span>
+                                    <span class="sup">
+                                        <sup>
+                                            ${(function() {
+                                                if (key <= 8) { return '00' + (key + 1); } else { return '0' + (key + 1); } 
+                                            })()}
+                                        </sup>
+                                    </span>
+                                </h2>
+                                
+                                <img class="empty-arrow" src="../svg/arrow-empty.svg" />
+                            </summary>
 
                             <div class="client-body">
 
@@ -46,7 +62,7 @@
 
                                     ${(function() { 
                                         if (item.images.length > 0) { return (`
-                                        <div class="images-wrapper"></div>
+                                                <div class="images-wrapper"></div>
                                             `); 
                                         } else {
                                             return '';
@@ -80,19 +96,26 @@
     ==============================================
     */
    $(document).ready(function() {
-    const details = document.querySelectorAll("details");
+        const details = document.querySelectorAll("details");
 
-    // Add the onclick listeners.
-    details.forEach((targetDetail) => {
-        targetDetail.addEventListener("click", () => {
-            // Close all the details that are not targetDetail.
-            details.forEach((detail) => {
-                if (detail !== targetDetail) {
-                    detail.removeAttribute("open");
-                }
+        // Add the onclick listeners.
+        details.forEach((targetDetail) => {
+            targetDetail.addEventListener("click", () => {
+                // Close all the details that are not targetDetail.
+                details.forEach((detail) => {
+                    if (detail !== targetDetail) {
+                        detail.removeAttribute("open");
+                    }
+                });
             });
         });
-    });
+
+
+        (function titleMarquee() {
+            document.title = document.title.substring(1)+document.title.substring(0,1);
+            setTimeout(titleMarquee, 200);
+        })();
+
    })
 
 
