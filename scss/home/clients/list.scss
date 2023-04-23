@@ -1,5 +1,21 @@
 .clients-accordion {
 
+    padding-top: 60px;
+
+    .title {    
+        font-size: 3em;
+        letter-spacing: -1px;
+        position: relative;
+        display: block;
+        padding-left: 20px;
+        padding-bottom: 30px;
+
+        span.accent {
+            letter-spacing: 0px;
+        }
+
+    }
+
     .clients-accordion--wrapper {
         padding: 0 0px;
     }
@@ -17,6 +33,7 @@
         transition: all 0.34s ease-out;
         cursor: pointer;
     }
+
     details summary::-webkit-details-marker {
         display:none;
     }
@@ -74,6 +91,8 @@
 
     details[open] {
         h2 {
+            text-decoration: none;
+
             span.client-name {
                 text-decoration: underline;
             }
@@ -100,6 +119,10 @@
         .description {
             margin-bottom: 20px;
         }
+    }
+
+    ul#client-list {
+        border-top: var(--border-white);
     }
 
     .client-body--left {
@@ -214,6 +237,11 @@
             }
         }
 
+        details > summary {
+            font-size: 24px;
+            list-style: none;
+            border-bottom: var(--border-white);
+        }
 
         .client-body {
             display: grid;
