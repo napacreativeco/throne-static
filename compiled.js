@@ -46,17 +46,7 @@
 
                                     ${(function() { 
                                         if (item.images.length > 0) { return (`
-                                                <div class="prev-holder">
-                                                    <button class="prev"><img src="../svg/arrow-right.svg" width="60" /></button>
-                                                </div>
-                                                <div class="swiper mouse-grab">
-                                                <div class="swiper-wrapper">
-
-                                                    </div>
-                                                </div>
-                                                <div class="next-holder">
-                                                    <button class="next"><img src="../svg/arrow-right.svg" width="60" /></button>
-                                                </div>
+                                        <div class="images-wrapper"></div>
                                             `); 
                                         } else {
                                             return '';
@@ -73,7 +63,7 @@
                 console.log(item.client);
 
                 $.map(item.images, function(img, key) {
-                    $('#' + item.slug).find('.swiper-wrapper').append(`<div class="swiper-slide"><img src="${img}" /></div>`);
+                    $('#' + item.slug).find('.images-wrapper').append(`<div class="slide"><img src="${img}" /></div>`);
                 }); 
             });
         })
