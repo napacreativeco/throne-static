@@ -8,7 +8,7 @@
         "links": [
             {
                 "instagram": "https://www.instagram.com/allisagentlespring",
-                "website": "https://www.gentle-spring.co/"
+                "website": "https://www.gentlespring.co/"
             }
         ],
         "images": [
@@ -40,8 +40,8 @@
         "description": "\"we bring creatives and brands together in unique and unexpected ways. by utilizing the bighouse network across entertainment, licensing, fashion, and technology, we create eye-catching products, partnerships and experiences.\"",
         "links": [
             {
-                "instagram": "https://www.instagram.com/another__side___",
-                "website": "https://www.another-side.net/"
+                "instagram": "https://www.thisbighouse.xyz",
+                "website": "https://www.instagram.com/bighousedot"
             }
         ],
         "images": []
@@ -54,12 +54,28 @@
         "description": "Dominic Fike is a talented and world reknown singer, songwriter and actor. Their music has been featured in Fortnite, Euphoria and has been recognized with award nominations from The Grammys, and MTV.",
         "links": [
             {
-                "instagram": "https://www.instagram.com/another__side___",
-                "website": "https://www.another-side.net/"
+                "instagram": "https://www.dominicfike.com",
+                "website": "https://www.instagram.com/dominicfike/"
             }
         ],
         "images": [
             "../img/dominic/dominic-fike--website-design.jpg"
+        ]
+    },
+    {
+        "client": "Farmapothica",
+        "slug": "farmapothica",
+        "type": "Packaging Design",
+        "designer": "Throne",
+        "description": "Farmapothica was a limited edition label of homemade skincare products, created here in the Napa Valley. We were lucky enough to get the opportunity to curate the collection's aesthetics.",
+        "links": [
+            {
+                "instagram": "javascript:void",
+                "website": "javascript:void"
+            }
+        ],
+        "images": [
+            "../img/farmapothica/farma-labels.jpg"
         ]
     },
     {
@@ -75,6 +91,23 @@
             }
         ],
         "images": []
+    },
+    {
+        "client": "GRDN MNGMNT",
+        "slug": "grdn",
+        "type": "Branding, Web Development",
+        "designer": "Throne",
+        "description": "GRDN MNGMNT helps California Cannabis Cultivators to elevate their farms. They take a hands on approach to helping farmers meet state regulations, environmental sustainability, branding, distribution, and more.",
+        "links": [
+            {
+                "instagram": "https://www.instagram.com/grdnmngmnt/",
+                "website": "https://www.grdnmngmnt.com"
+            }
+        ],
+        "images": [
+            "../img/grdn/gm--branding.jpg",
+            "../img/grdn/gm--brand-items.jpg"
+        ]
     },
     {
         "client": "Industry Standards",
@@ -158,7 +191,12 @@
                 "website": "https://www.rebelgrown.com/"
             }
         ],
-        "images": []
+        "images": [
+            "../img/rebelgrown/rg--brochure.jpg",
+            "../img/rebelgrown/rg--stickers.png",
+            "../img/rebelgrown/rg--web-comp.jpg",
+            "../img/rebelgrown/rg--web-menu.jpg"
+        ]
     },
     {
         "client": "Steep. Coffee, Tea, &amp; Crystals",
@@ -172,7 +210,11 @@
                 "website": "https://www.coffeeteacrystals.com/"
             }
         ],
-        "images": []
+        "images": [
+            "../img/steep/steep--pins.jpg",
+            "../img/steep/steep--coffee-tote.jpg",
+            "../img/steep/steep--mug.jpg"
+        ]
     },
     {
         "client": "Usal Project",
