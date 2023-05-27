@@ -63,22 +63,6 @@
         ]
     },
     {
-        "client": "Farmapothica",
-        "slug": "farmapothica",
-        "type": "Packaging Design",
-        "designer": "Throne",
-        "description": "Farmapothica was a limited edition label of homemade skincare products, created here in the Napa Valley. We were lucky enough to get the opportunity to curate the collection's aesthetics.",
-        "links": [
-            {
-                "instagram": "javascript:void",
-                "website": "javascript:void"
-            }
-        ],
-        "images": [
-            "../img/farmapothica/farma-labels.jpg"
-        ]
-    },
-    {
         "client": "Fomo Farms",
         "slug": "fomofarms",
         "type": "Web Development",
