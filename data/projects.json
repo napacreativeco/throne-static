@@ -33,18 +33,66 @@
         ]
     },
     {
-        "client": "Bighouse",
-        "slug": "bighouse",
-        "type": "Pitch Decks",
-        "designer": "William Canning, Throne",
-        "description": "\"we bring creatives and brands together in unique and unexpected ways. by utilizing the bighouse network across entertainment, licensing, fashion, and technology, we create eye-catching products, partnerships and experiences.\"",
+        "client": "Audible Treats",
+        "slug": "audibletreats",
+        "type": "Web Development",
+        "designer": "Throne",
+        "description": "Audible Treats is one of the biggest independent PR organizations. Their client list includes the likes of Ice Spice, Rolling Loud Festival, Chief Keef, Sexyy Red, and many more.",
         "links": [
             {
-                "instagram": "https://www.thisbighouse.xyz",
-                "website": "https://www.instagram.com/bighousedot"
+                "instagram": "https://www.instagram.com/audibletreats",
+                "website": "https://www.audibletreats.com"
+            }
+        ],
+        "images": [
+            "../img/audible-treats/audible-treats-our-work.png"
+        ]
+    },
+    {
+        "client": "Bighouse",
+        "slug": "bighouse",
+        "type": "Pitch Decks, Website Development",
+        "designer": "William Canning, Throne",
+        "description": "bighouse is a collective of creators, builders, designers, developers and artists. they aim to bridge the gap between commerce and culture, connecting seemingly disparate worlds in unique and unexpected ways.",
+        "links": [
+            {
+                "instagram": "https://www.instagram.com/bighousedot",
+                "website": "https://www.thisbighouse.xyz"
+            }
+        ],
+        "images": [
+            "../img/bighouse/bighouse-ghostworld.png"
+        ]
+    },
+    {
+        "client": "Coas Mote",
+        "slug": "caosmote",
+        "type": "Pitch Decks",
+        "designer": "Throne",
+        "description": "Coas Mote combines brutalism and elegence by created unique hand made furnature and home goods using concrete and their primary medium. Their work has led them to collaborate with brands such as Pabst Blue Ribbon, Nautilus Magazine, and more.",
+        "links": [
+            {
+                "instagram": "https://www.instagram.com/caosmote",
+                "website": "https://www.caosmote.com"
             }
         ],
         "images": []
+    },
+    {
+        "client": "Dais Records",
+        "slug": "daisrecords",
+        "type": "Website Development",
+        "designer": "Throne",
+        "description": "Dais Records is an independent record label focused mainly on dark electronic music, in addition to punk, and shoegaze music.",
+        "links": [
+            {
+                "instagram": "https://www.instagram.com/daisrecords",
+                "website": "https://www.daisrecords.com"
+            }
+        ],
+        "images": [
+            "../img/dais-records/dais-records-homepage.png"
+        ]
     },
     {
         "client": "Dominic Fike",
@@ -63,37 +111,6 @@
         ]
     },
     {
-        "client": "Fomo Farms",
-        "slug": "fomofarms",
-        "type": "Web Development",
-        "designer": "Throne",
-        "description": "An independently owned and operated Cannabis farm located in Northern California. Fomo focused on exclusively outdoor cultivation, and is known for their potent products.",
-        "links": [
-            {
-                "instagram": "https://www.instagram.com/fomofarms",
-                "website": "https://fomofarms.com/"
-            }
-        ],
-        "images": []
-    },
-    {
-        "client": "GRDN MNGMNT",
-        "slug": "grdn",
-        "type": "Branding, Web Development",
-        "designer": "Throne",
-        "description": "GRDN MNGMNT helps California Cannabis Cultivators to elevate their farms. They take a hands on approach to helping farmers meet state regulations, environmental sustainability, branding, distribution, and more.",
-        "links": [
-            {
-                "instagram": "https://www.instagram.com/grdnmngmnt/",
-                "website": "https://www.grdnmngmnt.com"
-            }
-        ],
-        "images": [
-            "../img/grdn/gm--branding.jpg",
-            "../img/grdn/gm--brand-items.jpg"
-        ]
-    },
-    {
         "client": "Industry Standards",
         "slug": "industrystandards",
         "type": "Graphic Design",
@@ -106,6 +123,22 @@
             }
         ],
         "images": []
+    },
+    {
+        "client": "Lafrance, LaMelo Ball",
+        "slug": "lafrance",
+        "type": "Website Development",
+        "designer": "William Canning",
+        "description": "LaMelo LaFrance Ball is an American professional basketball player for the Charlotte Hornets of the National Basketball Association.",
+        "links": [
+            {
+                "instagram": "https://www.instagram.com/lafrance/?hl=en",
+                "website": "https://1lafrance.com"
+            }
+        ],
+        "images": [
+            "../img/lamelo-ball/lafrance-lamelo-ball-homepage.png"
+        ]
     },
     {
         "client": "Lux18",
@@ -122,23 +155,9 @@
         "images": []
     },
     {
-        "client": "Moonstonegold",
-        "slug": "moonstonegold",
-        "type": "Graphic Design, Packaging",
-        "designer": "",
-        "description": "Moonstonegold is the moniker for the hand crafted, hand mined, jewelry created by Jes Sloan. Jes creates unique wearable and home goods items with crystals and stones mined throughout the South West.",
-        "links": [
-            {
-                "instagram": "https://www.instagram.com/moonstonegold/",
-                "website": "https://www.moonstonegold.com/"
-            }
-        ],
-        "images": []
-    },
-    {
-        "client": "Nappy Boy Ent.",
+        "client": "Nappy Boy Ent., T-Pain",
         "slug": "nappyboy",
-        "type": "Pitch Decks, Graphic Design",
+        "type": "Pitch Decks, Website Development",
         "designer": "Throne",
         "description": "Nappy Boy Entertainment is an media group founded by T-Pain. Nappy Boy operates a Record Label, Podcast, Gaming Team, and a Drifting Team.",
         "links": [
@@ -164,9 +183,37 @@
         "images": []
     },
     {
+        "client": "Online Ceramics",
+        "slug": "onlineceramics",
+        "type": "Pitch Decks",
+        "designer": "Throne, Online Ceramics",
+        "description": "Online Ceramics is an independent clothing company, known best for their impressive catalog of collaborations, including features with The Grateful Dead, A24, Andre 3000, Silent Hill, and many more.",
+        "links": [
+            {
+                "instagram": "https://www.instagram.com/onlineceramics/",
+                "website": "https://online-ceramics.com"
+            }
+        ],
+        "images": []
+    },
+    {
+        "client": "Pink Day, Lil Uzi Vert",
+        "slug": "pinkday",
+        "type": "Website Development",
+        "designer": "William Canning",
+        "description": "Pink Tape is a release by the world famous rapper Lil Uzi Vert. A limited edition line of clothing was released for this album, under the name Pink Day, and we had the pleasure of developing the site.",
+        "links": [
+            {
+                "instagram": "https://www.instagram.com/liluzivert/",
+                "website": "https://pinkday.store"
+            }
+        ],
+        "images": []
+    },
+    {
         "client": "Rebel Grown",
         "slug": "rebelgrown",
-        "type": "Sell Sheets, Tradeshow",
+        "type": "Sell Sheets, Tradeshow Assets",
         "designer": "",
         "description": "Rebel Grown is a World reknown cannabis cultivator, specializing in genetics and sustainable farming. They have won many awards from institutions like Cannabis Cup, High Times and more.",
         "links": [
@@ -183,22 +230,48 @@
         ]
     },
     {
-        "client": "Steep. Coffee, Tea, &amp; Crystals",
-        "slug": "steep",
-        "type": "Graphic Design",
-        "designer": "",
-        "description": "STEEP is a small shop located in Hopland, California, right off the Interstate. In addition to their in-house cold brew, and packaged coffee, STEEP sells a vast array of crystals, mined themeselves from the Sonoran Desert.",
+        "client": "SEVENSEVENSEVEN",
+        "slug": "sevensevenseven",
+        "type": "Web Development",
+        "designer": "William Canning",
+        "description": "SEVENSEVENSEVEN is an independent Magazine, and Clothing label providing a platform for a number of influencial rappers and artists.",
         "links": [
             {
-                "instagram": "https://www.instagram.com/steephopland/",
-                "website": "https://www.coffeeteacrystals.com/"
+                "instagram": "https://www.instagram.com/sevensevenseven/",
+                "website": "https://sevensevenseven.life/"
             }
         ],
         "images": [
-            "../img/steep/steep--pins.jpg",
-            "../img/steep/steep--coffee-tote.jpg",
-            "../img/steep/steep--mug.jpg"
+            "../img/sevensevenseven/sevensevenseven-homepage.png"
         ]
+    },
+    {
+        "client": "Siberia Hills",
+        "slug": "siberiahills",
+        "type": "Web Development",
+        "designer": "",
+        "description": "Siberia Hills is a unique high fashion brand.",
+        "links": [
+            {
+                "instagram": "https://www.instagram.com/siberiahills",
+                "website": "https://siberiahills.eu"
+            }
+        ],
+        "images": []
+    },
+    {
+        "client": "Unified Music Group",
+        "slug": "unifiedmusicgroup",
+        "type": "Pitch Decks, Artist EPKs",
+        "designer": "",
+        "description": "Unified Music Group is an artist management agency.",
+        "links": [
+            {
+                "instagram": "https://www.instagram.com/unified_mg/",
+                "website": "https://unifiedmusicgroup.com/"
+            }
+        ],
+        "images": []
     },
     {
         "client": "Usal Project",
