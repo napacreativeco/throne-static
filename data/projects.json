@@ -49,7 +49,7 @@
         ]
     },
     {
-        "client": "Bighouse",
+        "client": "bighouse",
         "slug": "bighouse",
         "type": "Pitch Decks, Website Development",
         "designer": "William Canning, Throne",
@@ -65,7 +65,7 @@
         ]
     },
     {
-        "client": "Coas Mote",
+        "client": "Caos Mote",
         "slug": "caosmote",
         "type": "Pitch Decks",
         "designer": "Throne",
